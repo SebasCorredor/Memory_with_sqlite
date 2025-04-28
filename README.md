@@ -86,7 +86,3 @@ Actualmente, el agente cuenta con las siguientes herramientas:
 Para añadir soporte para más ciudades:
 1. Modifica la función `get_weather` en `tools.py` para incluir más ciudades
 2. Actualiza el tipo `Literal` en la anotación de tipo para incluir las nuevas ciudades
-
-## Licencia
-
-[Especifica tu licencia aquí]
