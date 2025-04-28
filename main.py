@@ -21,7 +21,6 @@ cursor = conn.cursor()
 #Configuramos para que el checkpoint se guarde en la base de datos SQLite
 memory = SqliteSaver(conn)
 
-
 #Herramienta de recuperacion de datos
 tools = [
         get_weather
@@ -32,7 +31,6 @@ llm = ChatVertexAI(
                    model="gemini-2.0-flash",
                    temperature=0,
                    )
-
 
 #Definimos el estado inicial
 class State(MessagesState):
